@@ -17,9 +17,8 @@
         <distributor>Digital Latin Library</distributor>
         <date>2016</date>
         <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">
-            Distributed under a Creative Commons Attribution 4.0 International
-            License.</licence>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"> Distributed under a
+            Creative Commons Attribution 4.0 International License.</licence>
         </availability>
       </publicationStmt>
       <seriesStmt>
@@ -49,6 +48,10 @@
         see section 3 Bibliography below. -->
         <div type="section" xml:id="conspectus">
           <head>Conspectus</head>
+          <listWit>
+            <witness xml:id="Servius"><abbr type="siglum">Servius</abbr></witness>
+            <witness xml:id="Pastrengicus"><abbr type="siglum">Pastrengicus</abbr></witness>
+          </listWit>
           <!--A key to the special sigla and abbreviations used in the edition (drawn
           from the @xml:id's assigned to the various items in the
           bibliography). The list of sigla may be generated automatically. -->
@@ -56,15 +59,35 @@
       </div>
     </front>
     <body>
-      <div type="edition" xml:id="edition-text" xml:space="preserve">
+      <div type="edition" xml:id="edition-text">
         <div type="textpart" n="1" xml:id="part1">
           <head>Title of First Part</head>
+          <lg type="stanza">
+            <head>Poem 1</head>
+            <l n="1">Cui dono lepidum novum libellum</l>
+            <l n="2"><app>
+                <lem wit="#Servius #Pastrengicus" xml:id="lem-1.2-arida">arida</lem>
+                <witDetail wit="#Servius" target="#lem-1.2-arida">ad loc. Aen. 1.2</witDetail>
+                <rdg>arido</rdg>
+              </app> modo pumice expolitum?</l>
+            <l n="3">Corneli, tibi: namque tu solebas</l>
+            <l n="4">meas esse aliquid putare nugas</l>
+            <l n="5">iam tum, cum ausus es unus Italorum</l>
+            <l n="6">omne aevum tribue explicare cartis</l>
+            <l n="7">doctis, Iuppiter, et laboriosis.</l>
+            <l n="8">quare habe tibi quidquid hoc libelli.</l>
+            <l n="9">qualecumque quod, <supplied reason="lost">o</supplied> patrona virgo,</l>
+            <l n="10">plus uno maneat perenne saeclo.</l>
+          </lg>
+
+
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
         <div type="textpart" n="2" xml:id="part2">
           <head>Title of Second Part</head>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
         </div>
+        <div type="bibliography"/>
       </div>
     </body>
     <back>
