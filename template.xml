@@ -36,6 +36,7 @@
         <head>Preface</head>
         <p>General introductory remarks about the edition.</p>
         <div type="section" xml:id="preface-section-1">
+          <p><ref target="url">My pretty picture</ref></p>
           <!--This is a section within the preface. Editors should use
           sections (distinguished by <div>) to organize the content of the edition's preface.-->
         </div>
@@ -68,7 +69,7 @@
             <l n="2"><app>
                 <lem wit="#Servius #Pastrengicus" xml:id="lem-1.2-arida">arida</lem>
                 <witDetail wit="#Servius" target="#lem-1.2-arida">ad loc. Aen. 1.2</witDetail>
-                <rdg>arido</rdg>
+                <rdg cert="">arido</rdg>
               </app> modo pumice expolitum?</l>
             <l n="3">Corneli, tibi: namque tu solebas</l>
             <l n="4">meas esse aliquid putare nugas</l>
