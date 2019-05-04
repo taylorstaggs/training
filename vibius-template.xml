@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITLE</title>
+        <author>ORIGINAL AUTHOR</author>
+        <editor>EDITOR NAME</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>First Edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>---</publisher>
+        <distributor>---</distributor>
+        <date>---</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Library of Digital Latin Texts</title>
+        <biblScope unit="vol">1</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front xml:id="front">
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <!-- This is where the bibliography for the edition is listed. -->
+        <div type="section" xml:id="bibliography-witnesses">
+          <listWit>
+            <witness xml:id="V">
+              <abbr type="siglum">V</abbr>
+              Codex Vaticanus Latinus 4929 ff. 188r–195r (<ptr target="https://digi.vatlib.it/view/MSS_Vat.lat.4929"/>, accessed on 2019-03-17).</witness>
+            <witness xml:id="V1">
+              <abbr type="siglum">V<hi rend="superscript">1</hi>
+              </abbr>
+              Corrections made by the original manuscript copyist.</witness>
+            <witness xml:id="V2">
+              <abbr type="siglum">V<hi rend="superscript">2</hi>
+              </abbr>
+              Corrections made by a hand contemporary to the original manuscript copyist.</witness>
+            <witness xml:id="V3">
+              <abbr type="siglum">V<hi rend="superscript">3</hi>
+              </abbr>
+              Corrections made by a hand at the end of the 11<hi rend="superscript">th</hi>
+              century or the beginning of the 12<hi rend="superscript">th</hi>
+              century.</witness>
+            <witness xml:id="V4">
+              <abbr type="siglum">V<hi rend="superscript">4</hi>
+              </abbr>
+              Corrections made by a hand a little after V<hi rend="superscript">3</hi>.</witness>
+            <witness xml:id="VC">
+              <abbr type="siglum">V<hi rend="superscript">c</hi>
+              </abbr>
+              Corrections made by a hand that cannot be identified with certainty (i.e., it could be any of those already listed).</witness>
+            <witness xml:id="VP">
+              <abbr type="siglum">V<hi rend="superscript">p</hi>
+              </abbr>
+              A reading prior to correction.</witness>
+          </listWit>
+        </div>
+        </div>
+      </front>
+      <body>
+        <div type="edition" xml:id="edition-text">
+          <!-- Beginning of section "Flumina" -->
+          <div type="textpart" n="1" xml:id="part1">
+            <head>Flumina</head>
+              <p xml:id="Hipparis">
+                <lb/><placeName ref="https://pleiades.stoa.org/places/462248">Hipparis</placeName>, quem et <placeName>Hiccarin</placeName> vocant,
+                <lb/> ex qup <placeName ref="https://pleiades.stoa.org/places/462126">Camerinis</placeName> aqua inducta est </p>
+            <p xml:id="Hermus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/550575">Hermus</placeName>, <placeName ref="https://pleiades.stoa.org/places/1001909">Lydiae</placeName> </p>
+            <p xml:id="Hapsus">
+              <lb/><placeName>Hapsus</placeName> finibus <placeName ref="https://pleiades.stoa.org/places/897714">Apolloniae</placeName>
+                <lb/> decurrens in sinum <placeName>Ionium</placeName> </p>
+            <p xml:id="Indus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/638870">Indus</placeName>, <placeName>Indiam</placeName> definit ab occasu, a
+                <lb/> quo <placeName ref="https://pleiades.stoa.org/places/50004">India</placeName> dicta; hic descendentem 
+                <lb/> <placeName ref="https://pleiades.stoa.org/places/59837">Hydaspem</placeName> recipit </p>
+            <p xml:id="Isara">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/109067">Isara</placeName>, <placeName ref="https://pleiades.stoa.org/places/992075">Galliae</placeName>, currit in <placeName ref="https://pleiades.stoa.org/places/148168">Rhodanum</placeName> </p>
+            <p xml:id="Isamnus">
+              <lb/><placeName>Isamnus</placeName>, <placeName ref="https://pleiades.stoa.org/places/481818">Dyrrachi</placeName>, ab <placeName>Isamno</placeName> castelli
+              <lb/> dictus. </p>
+            <p xml:id="Ilerda">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/246431">Ilerda</placeName>, <placeName ref="https://pleiades.stoa.org/places/992072">Hispaniae</placeName>, a qup <placeName ref="https://pleiades.stoa.org/places/246431">Ilerda</placeName>.
+            <lb/><placeName ref="https://pleiades.stoa.org/places/540836">Inachus</placeName>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName> </p>
+            <p xml:id="Kaicus">
+              <lb/><placeName>Kaicus</placeName>, <placeName ref="https://pleiades.stoa.org/places/992077">Moesiae</placeName>. </p>
+            <p xml:id="Lyncestius">
+              <lb/><placeName>Lyncestius</placeName>, <placeName ref="https://pleiades.stoa.org/places/992078">Thraciae</placeName>, cuius awuam biben
+              <lb/> tes ebrii fiunt.</p>
+            <p xml:id="Lethe">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/373839">Lethe</placeName>, <placeName>Inferorum</placeName>, quod oblivii sit causa. </p>
+            <p xml:id="Liris">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/432910">Liris</placeName>, non longe a Marsis Vestinisque,
+              <lb/>cuius in ripa numphae <placeName ref="https://pleiades.stoa.org/places/432925">Maricae</placeName>
+              <lb/><placeName>Minturnensis</placeName> templum est. </p>
+            <p xml:id="Lycus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/638967">Lycus</placeName>, <placeName ref="https://pleiades.stoa.org/places/981509">Asiae</placeName>, unde
+                  <note target="#lycus"> a later hand has added another line in the margin
+                    <foreign xml:lang="la">Liger gallie duuctus aqtanoi ccltas in occanii brittannicii evoluit</foreign>
+                  </note> </p>
+            <p xml:id="Lycastus">
+              <lb/><placeName>Lycastus</placeName>, a quo, Lyca
+              <lb/>civitas
+              <note target="#Lycastus"> a later hand added after
+                <foreign xml:lang="la">Lyga</foreign>
+              </note> </p>
+            <p xml:id="Lethaeus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/599765">Lethaeus</placeName> insulae <placeName ref="https://pleiades.stoa.org/places/981515">Cretae</placeName>, ita dictus,
+              <lb/>quod <placeName ref="https://pleiades.stoa.org/places/494567">Harmonia</placeName> <placeName ref="https://pleiades.stoa.org/places/456133">Veneris</placeName> filia <placeName>Cad
+              <lb/>mon</placeName> oblita dicitur </p>
+            <p xml:id="Mincius">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/383708">Mincius</placeName>, <placeName ref="https://pleiades.stoa.org/places/992075">Galliae</placeName> <placeName>Cisalpinae</placeName>, proximus
+              <lb/> <placeName ref="https://pleiades.stoa.org/places/236534">Mantuanis</placeName>; agitur ex <placeName ref="https://pleiades.stoa.org/places/383587">Benaco</placeName>. </p>
+            <p xml:id="Maendros">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/599777">Maeandros</placeName>, cariae.
+              <lb/>hic tam flexuosus est, ut in sese
+              <lb/>recurrat.
+              <note target="#Maendros">Mofella... added later
+                <foreign xml:lang="la"> Mofella </foreign>
+              </note>
+              <note target="#Maendros"> asiae edited out
+                <foreign xml:lang="la"> Asiae </foreign>
+              </note> </p>
+            <p xml:id="Minion">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/413202">Minion</placeName>, <placeName ref="https://pleiades.stoa.org/places/413122">Etruriae</placeName>, a <placeName>Minone</placeName>. </p>
+            <p xml:id="Metaurus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/413199">Metaurus</placeName>, <placeName ref="https://pleiades.stoa.org/places/413360">Umbriae</placeName>, in sinum <placeName ref="https://pleiades.stoa.org/places/1004">Adri
+              <lb/>aticum</placeName> decurrens. </p>
+            <p xml:id="Macra">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/403237">Macra</placeName>, <placeName>Liquriae</placeName>, secundum <placeName ref="https://pleiades.stoa.org/places/403235">Lunam</placeName>
+              <lb/>urbem. </p>
+            <p xml:id="Mathis">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/481908">Mathis</placeName>, <placeName ref="https://pleiades.stoa.org/places/481818">Dyrrachi</placeName>, non longe a <placeName ref="https://pleiades.stoa.org/places/465945">Lisso</placeName>. </p>
+            <p xml:id="Marsyas">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/668310">Marsyas</placeName>, <placeName ref="https://pleiades.stoa.org/places/550827">Phrygiae</placeName>, urbis <placeName>Celaenae</placeName>.</p>
+            <p xml:id="Melas">
+              <lb/> <placeName ref="https://pleiades.stoa.org/places/501514">Melas</placeName>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, in <placeName ref="https://pleiades.stoa.org/places/540647">Apidanum</placeName>
+              <lb/>fluens. </p>
+            <p xml:id="Nilus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/727172">Nilus</placeName>, <placeName ref="https://pleiades.stoa.org/places/981503">Aegypti</placeName>, ex <placeName ref="https://pleiades.stoa.org/places/334481">Aethiopia</placeName> de
+              <lb/>currens.
+              <lb/> per Narniam fluit.
+                <note/>added after <placeName ref="https://pleiades.stoa.org/places/413220">Nar</placeName>, Sabinorum, ex Appennino in Tiberim decurrit; </p>
+            <p xml:id="Numicus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/422988">Numicus</placeName>, in agro <placeName ref="https://pleiades.stoa.org/places/197346">Laurenti</placeName></p>
+            <p xml:id="Niphates">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/874622">Niphates</placeName>, <placeName ref="https://pleiades.stoa.org/places/874350">Armeniae</placeName>, ex monte <placeName ref="https://pleiades.stoa.org/places/874622">Ni
+              <lb/>phate</placeName>. </p>
+            <p xml:id="Oaxes">
+              <lb/> <placeName ref="https://pleiades.stoa.org/places/590095">Oaxes</placeName>, <placeName ref="https://pleiades.stoa.org/places/991373">Cretae</placeName>, a qup et civitas
+              <lb/><placeName ref="https://pleiades.stoa.org/places/59950">Oaxus</placeName>. <placeName ref="https://pleiades.stoa.org/places/187607">Varro</placeName> hoc docet: et geminis
+              <lb/>cupiens tellurem <placeName>Oeaxida</placeName> palmis </p>
+            <p xml:id="Orethus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/462400">Orethus</placeName>, <placeName ref="https://pleiades.stoa.org/places/462410">Panhormi</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>. </p>
+            <p xml:id="Orontes">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/658560">Orontes</placeName>, <placeName ref="https://pleiades.stoa.org/places/1306">Syriae</placeName>, e monte <placeName>Casio</placeName>.</p>
+            <p xml:id="Padus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/393469">Padus</placeName>, <placeName ref="https://pleiades.stoa.org/places/992075">Galliae</placeName> <placeName>Cisalpinae</placeName>, qui
+              <lb/> et <placeName ref="https://pleiades.stoa.org/places/393469">Eridanus</placeName>. </p>
+            <p xml:id="Permessos">
+              <lb/><placeName>Permessos</placeName>, <placeName ref="https://pleiades.stoa.org/places/540689">Boeotiae</placeName>. </p>
+            <p xml:id="Peneos">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/570579">Peneos</placeName>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, ubi silvae
+              <lb/>quas <placeName ref="https://pleiades.stoa.org/places/541131">Tempe</placeName> vocant; hunc <placeName ref="https://pleiades.stoa.org/places/511183">Be
+              <lb/>bryces</placeName> possederunt. </p>
+            <p xml:id="Phasis">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/874645">Phasis</placeName>, in <placeName>Colchide</placeName>, qui de monte
+              <lb/><placeName>Amaranto</placeName> fluit. </p>
+            <p xml:id="Pantagyas">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/462411">Pantagyas</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, ita dictus,
+              <lb/>quod sonitus eius decur-rentis
+              <lb/>per tota, insulam auditus est usqur
+              <lb/>eo donec <placeName>Ceres</placeName> filiam quaerens
+              <lb/>conprineret eum. </p>
+            <p xml:id="Pitonius">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/438807">Pitonius</placeName>, qui per medium lacum
+              <lb/><placeName ref="https://pleiades.stoa.org/places/432853">Fucinum</placeName> <placeName>Marsorum</placeName> ita decurrit,
+              <lb/>ut aqua eius non misceatur
+              <lb/>stagno. </p>
+            <p xml:id="Pactolus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/550794">Pactolus</placeName>, <placeName ref="https://pleiades.stoa.org/places/1001909">Lydiae</placeName>, qui decurrens
+              <lb/>aurum trahit. </p>
+            <p xml:id="Phacelinus">
+              <lb/><placeName>Phacelinus</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, iuxta <placeName>Pelo
+              <lb/>ridem</placeName>, confinis templo <placeName ref="https://pleiades.stoa.org/places/422917">Dianae</placeName>. </p>
+            <p xml:id="Pisaurus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/413257">Pisaurus</placeName>, a quo civitas <placeName ref="https://pleiades.stoa.org/places/413257">Pisauria</placeName>;
+              <lb/> decurrit in <placeName ref="https://pleiades.stoa.org/places/1004">Adriaticum</placeName> mare.</p>
+            <p xml:id="Phoenix">
+              <lb/><placeName>Phoenix</placeName>, <placeName ref="https://pleiades.stoa.org/places/1332">Thessaliae</placeName>, in <placeName ref="https://pleiades.stoa.org/places/540647">Apidanum</placeName>
+              <lb/>fluit. </p>
+            <p xml:id="Pachynos">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/462404">Pachynos</placeName>, <placeName ref="https://pleiades.stoa.org/places/981549">Siciliae</placeName>, ubi Sextus Pom
+              <lb/> peius iuvenis interfectus est. </p>
+            <p xml:id="Rhenus">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/109277">Rhenus</placeName>, <placeName ref="https://pleiades.stoa.org/places/20468">Germaniae</placeName> a <placeName ref="https://pleiades.stoa.org/places/20468">Ger
+              <lb/>manis</placeName> <placeName>Segregans</placeName>. </p>
+            <p xml:id="Rubicon">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/393484">Rubicon</placeName>, <placeName ref="https://pleiades.stoa.org/places/993">Gallie</placeName>, iuxta <placeName ref="https://pleiades.stoa.org/places/393379">Arimi
+              <lb/>num</placeName> plim dividens </p>
+            <p xml:id="Rutuba">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/157914">Rutuba</placeName>, ex <placeName ref="https://pleiades.stoa.org/places/815">Appennino</placeName> in <placeName ref="https://pleiades.stoa.org/places/423080">Thy
+              <lb/>brin</placeName> fluit. </p>
+            <p xml:id="Strymon">
+              <lb/><placeName ref="https://pleiades.stoa.org/places/501629">Strymon</placeName>, <placeName ref="https://pleiades.stoa.org/places/992078">Thraciae</placeName>, plurimo gelu strictus. </p>
+
+
+          </div>
+          <!-- End of section "Flumina" -->
+
+          <!-- Beginning of section "Fontes" -->
+          <div type="textpart" n="2" xml:id="part2">
+            <head>Fontes</head>
+
+          </div>
+          <!-- End of section "Fontes" -->
+
+          <!-- Beginning of section "Lacus" -->
+          <div type="textpart" n="3" xml:id="part3">
+            <head>Lacus</head>
+          </div>
+          <!-- End of section "Lacus" -->
+
+          <!-- Beginnins of section "Nemora" -->
+          <div type="textpart" n="4" xml:id="part4">
+            <head>Nemora</head>
+          </div>
+          <!-- End of section "Nemora" -->
+
+          <div type="textpart" n="5" xml:id="part5">
+            <head>Paludes</head>
+          </div>
+          <!-- End of section "Paludes" -->
+
+          <!-- Beginning of section "Montes" -->
+          <div type="textpart" n="6" xml:id="part6">
+            <head>Montes</head>
+          </div>
+          <!-- End of section "Montes" -->
+
+          <!-- Beginning of section "Gentes" -->
+          <div type="textpart" n="7" xml:id="part7">
+            <head>Gentes</head>
+          </div>
+          <!-- End of section "Gentes" -->
+
+        </div>
+      </body>
+      <back>
+        <!-- The content of the back matter will be determined in consultation between the editor and the staff of the DLL. Because LDLT editions are encoded, the matter traditionally found in the back of a printed critical edition may be generated by
+        applications instead of having to be entered manually. Nevertheless, there is space here for notes, indices, and other kinds of information. -->
+      </back>
+    </text>
+  </TEI>
